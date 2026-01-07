@@ -147,3 +147,4 @@ def optimize_cvar(
 
     else:
         raise ValueError("mode must be 'static' or 'dynamic'")
+
