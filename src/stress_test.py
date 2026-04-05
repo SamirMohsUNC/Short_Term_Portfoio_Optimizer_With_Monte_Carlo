@@ -52,3 +52,4 @@ def run_stress_test(
 
     else:
         raise ValueError("Unsupported stress test method. Use 'economic' or 'stock'.")
+    
