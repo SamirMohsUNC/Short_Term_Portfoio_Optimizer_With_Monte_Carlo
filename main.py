@@ -103,7 +103,7 @@ def print_rolling_summary(summary):
         print(f"    {k:<12}: {summary[k]}")
 
     print("\n  ── Risk ────────────────────────────────────────")
-    print(f"    VaR hit rate   : {summary['hit rate']:.3f}  (expected {1 - summary['alpha']:.3f})")
+    print(f"    VaR hit rate   : {summary['var_hit_rate']:.3f}  (expected {1 - summary['alpha']:.3f})")
     print(f"    Avg VaR        : {summary['avg_VaR']:.4%}")
     print(f"    Avg CVaR       : {summary['avg_CVaR']:.4%}")
     print(f"    Avg turnover   : {summary['avg_turnover_L1']:.4f}")
